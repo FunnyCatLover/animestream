@@ -1,0 +1,18 @@
+# Игнорируем видео
+*.mp4
+
+# Временные файлы
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Папки разработки
+node_modules/
+dist/
+build/
+.env
