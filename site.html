@@ -1,0 +1,92 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animestream</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="search-form">
+            <input class="search-form__txt" type="text"
+            placeholder="Search">
+            <button class="search-form__btn"><img class="search-form__image" 
+                src="search.svg" alt="image"></button>
+        </div>
+
+        <header>
+        
+            <a href="" class="Logo">ANIME</a>
+            
+            <nav>
+                <ul>
+                    <li><a href="#">Жанры</a></li>
+                    <li><a href="#">Новинки</a></li>
+                    <li><a href="#">Сериалы</a></li>
+                    <li><a href="#">Фильмы</a></li>
+                    <li><a href="#">ТОП 100</a></li>
+                </ul>
+            </nav>
+             
+
+            
+        </header>
+        <h1>Cowboy Bebop</h1>
+        <div class="container2">
+            <div class="poster">
+                <img src="https://upload.wikimedia.org/wikipedia/ru/a/a2/Cowboy_Bebop_poster.jpg" alt="Cowboy Bebop Poster" width="200" height="300">
+            </div>
+            <div class="info">
+                <h2>Ковбой Бибоп / Cowboy Bebop</h2>
+                <p><strong>Год выхода:</strong> 1998</p>
+                <p><strong>Время:</strong> 24 мин.</p>
+                <p><strong>Режиссер:</strong> Джастин Кук</p>
+                <p><strong>Рейтинг аниме:</strong> 8.6 / 10 (1234 голосов)</p>
+                <p><strong>Жанр:</strong> Драма • Комедия • Приключения • Фантастика • Экшен</p>
+                <p><strong>Просмотров:</strong> 692 161</p>
+                <p><strong>Статус:</strong> Вышел</p>
+                <p><strong>Лицензировано:</strong> Netflix</p>
+                <p><strong>Перевод:</strong> Сербин, Amazing Dubbing, AniLibria, SHIZA Project, KANSAI Studio, 3df voice, NoNameDUB Project, AniDUB, Субтитры</p>
+            </div>
+        </div>
+        
+        <div class="center-content">
+            <h2>Описание мультсериала:</h2>
+            <p>Колонизация Солнечной системы стала для человечества необходимостью. Техногенная катастрофа привела к
+                уничтожению всего живого на Земле, полноценная жизнь на планете больше невозможна, поэтому ее поиски
+                продолжились в космическом пространстве. Гиперпространственные врата позволяют перемещаться между
+                планетами в рекордно короткие сроки, что позволило создать новые колонии, ускорило освоение земель.
+                Правительственные структуры слишком поздно поняли, что вратами пользуются преступные элементы с целью
+                достижения корыстных замыслов. Остановить их могут охотники за головами, среди которых профессионалы
+                Спайк Шпигель и Джет Блэк.</p>
+
+                <p>Им не привыкать к схваткам с головорезами, но у ребят есть одно незыблемое правило, которое они
+                соблюдают – на их космическом корабле Бибоп никогда не бывает посторонних личностей, но найденная
+                собачка Эйн стала исключением, как и первоклассная мошенница Фэй Валентайн. Спустя время ряды команды
+                пополнил компьютерный гений Радикал Эдвард, но напарники ни разу не пожалели о своем исключении из
+                правил. Команда готова отправиться на поиски матерого преступного элемента, действия которого могут
+                привести к наступлению Апокалипсиса, который когда-то случился на Земле.</p>
+                
+                <h2>Смотреть онлайн:</h2>
+
+                <div id="seriesContainer" class="series-container"></div>
+
+                <div>
+                    <button id="prevPage" onclick="changePage(-1)">Предыдущая страница</button>
+                    <button id="nextPage" onclick="changePage(1)">Следующая страница</button>
+                </div>
+            
+                <video id="videoPlayer" width="600" controls>
+                    <source id="videoSource" src="episode1.mp4" type="video/mp4">
+                    Ваш браузер не поддерживает видео.
+                </video>
+                
+                <script src="script.js"></script>
+</body>
+

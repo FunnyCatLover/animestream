@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 170vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://i.pinimg.com/originals/c0/2b/d0/c02bd02c53d3a122552a2b385241cf0b.jpg'); /* Фоновое изображение по бокам */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+}
+
+.search-form {
+    width: 93%;
+    max-width: 95%;
+    height: auto;
+    align-items: center;
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    height: 30px;
+    border-radius: 100px;
+    overflow: hidden;
+    margin-top: -50px; 
+    background-color: rgb(255, 255, 255) ;
+}
+
+.search-form__txt {
+    border: none;
+    width: 93%;
+    outline: none;
+    font-size: 18px;
+    padding-right: 10px;
+
+}
+
+.search-form__btn {
+    border: none;
+}
+
+.search-form__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.Logo {
+    text-decoration: none;
+    color: whitE;
+    font-weight: 900;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    display: block;
+}
+
+header nav ul li {
+    list-style: none;
+    position: relative;
+    float: left;
+}
+
+header .Logo:hover {
+    transform: scale(1.2);
+}
+
+header nav ul li a:hover {
+    color: purple;
+}
+
+.container {
+    width: 50%;
+    max-width: 1200px; /* Ширина центрального контейнера */
+    height: 151vh;
+    background-color: rgb(0, 0, 0); /* Цвет фона по центру (белый) */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Легкая тень */
+    padding: 20px;
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        background-image: none; /* Убираем боковые фоны */
+
+    }}
+
+    video {
+        width: 100%; /* Ширина видео на всю ширину контейнера */
+        max-width: 800px; /* Максимальная ширина видео */
+        height: auto; /* Автоматическая высота для сохранения пропорций */
+    }
+
+.center-content {
+    text-align: left;
+    font-style: initial;
+}
+
+
+.container2 {
+    display: flex;           /* Создаем гибкую раскладку */
+    align-items: flex-start; /* Выравниваем по верху */
+}
+
+.poster img {
+    width: 200px;            /* Ширина постера */
+    height: auto;            /* Автоматическая высота для сохранения пропорций */
+    margin-right: 20px;      /* Отступ справа для текста */
+}
+
+.info {
+    max-width: 600px;        /* Максимальная ширина текстового блока */
+}
+
+.info h2 {
+    font-size: 24px;         /* Размер заголовка */
+    margin-bottom: 10px;
+}
+
+.info p {
+    font-size: 16px;         /* Размер текста */
+    margin: 5px 0;
+}
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрирование по горизонтали */
+    justify-content: center;
+    height: 150vh; /* Центрирование по вертикали */
+}
+
+.buttonseries {
+        margin: 5px;
+        padding: 10px 15px;
+        font-size: 16px;
+        cursor: pointer;
+        color: rgb(0, 0, 0); /* Цвет текста */
+        border: none; /* Убрать границу */
+        margin-left: -20px ;
+        margin-top: -20px;
+}
+    
+    button:hover {
+        background-color: purple; /* Цвет кнопки при наведении */
+    }    
+
+
+
+
